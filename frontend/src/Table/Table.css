@@ -1,0 +1,36 @@
+table {
+  width: 92.5%;
+}
+thead {
+  height: 48px;
+}
+
+thead > tr > th:nth-of-type(2) {
+  cursor: pointer;
+}
+
+tbody > tr {
+  height: 68px;
+  border: 1px solid #273b69;
+  cursor: pointer;
+}
+
+tbody > tr:hover {
+  background-color: #e5eaf4;
+}
+
+.updateBtn {
+  color: #273b69;
+  background-color: #fefefe;
+  width: 132px;
+  height: 36px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.buttonMenu {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
