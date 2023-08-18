@@ -1,0 +1,63 @@
+.addContact-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addContact-window {
+  width: 436px;
+  height: 436px;
+  border-radius: 14px;
+  background-color: #fefefe;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addContact-window > h3 {
+  color: #273b69;
+}
+
+.addForm {
+  display: flex;
+  flex-direction: column;
+  height: 252px;
+  justify-content: space-around;
+}
+
+.addFormInput {
+  height: 20px;
+  background-color: rgba(196, 196, 196, 0.17);
+}
+
+.addFormInput::placeholder {
+  font-size: 14px;
+  text-align: center;
+}
+
+.addFormInput:focus {
+  text-indent: 24px;
+}
+
+.btn {
+  height: 36px;
+  width: 132px;
+  color: #273b69;
+  margin: 2px;
+  border: none;
+  background-color: #fefefe;
+  cursor: pointer;
+}
+
+form > p {
+  font-size: 12px;
+}

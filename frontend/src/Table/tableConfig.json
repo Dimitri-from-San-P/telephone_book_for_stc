@@ -1,0 +1,30 @@
+{
+  "name": "Телефонная книга",
+  "columns": [
+    {
+      "dataField": "photo",
+      "caption": "",
+      "dataType": "string"
+    },
+    {
+      "dataField": "name",
+      "caption": "Имя",
+      "dataType": "string"
+    },
+    {
+      "dataField": "phone",
+      "caption": "Телефон",
+      "dataType": "string"
+    },
+    {
+      "dataField": "address",
+      "caption": "Адрес",
+      "dataType": "string"
+    },
+    {
+      "dataField": "email",
+      "caption": "Электронная почта",
+      "dataType": "string"
+    }
+  ]
+}

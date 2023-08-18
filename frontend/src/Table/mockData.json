@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Дима",
+    "photo": "",
+    "phone": "+7 921 92-90-20",
+    "address": "Спб",
+    "email": "sukhovdk@gmail.com"
+  },
+  {
+    "id": 2,
+    "name": "2",
+    "photo": "",
+    "phone": "+7 921 92-90-21",
+    "address": "Мск",
+    "email": "aaa@mail.ru"
+  },
+  {
+    "id": 3,
+    "name": "3",
+    "photo": "",
+    "phone": "+7 921 92-90-21",
+    "address": "Мск",
+    "email": "aaa@mail.ru"
+  },
+  {
+    "id": 4,
+    "name": "4",
+    "photo": "",
+    "phone": "+7 921 92-90-21",
+    "address": "Мск",
+    "email": "aaa@mail.ru"
+  },
+  {
+    "id": 5,
+    "name": "5",
+    "photo": "",
+    "phone": "+7 921 92-90-21",
+    "address": "Мск",
+    "email": "aaa@mail.ru"
+  },
+  {
+    "id": 6,
+    "name": "6",
+    "photo": "",
+    "phone": "+7 921 92-90-21",
+    "address": "Мск",
+    "email": "aaa@mail.ru"
+  },
+  {
+    "id": 7,
+    "name": "7",
+    "photo": "",
+    "phone": "+7 921 92-90-21",
+    "address": "Мск",
+    "email": "aaa@mail.ru"
+  },
+  {
+    "id": 8,
+    "name": "8",
+    "photo": "",
+    "phone": "+7 921 92-90-21",
+    "address": "Мск",
+    "email": "aaa@mail.ru"
+  },
+  {
+    "id": 9,
+    "name": "9",
+    "photo": "",
+    "phone": "+7 921 92-90-21",
+    "address": "Мск",
+    "email": "aaa@mail.ru"
+  },
+  {
+    "id": 10,
+    "name": "10",
+    "photo": "",
+    "phone": "+7 921 92-90-21",
+    "address": "Мск",
+    "email": "aaa@mail.ru"
+  },
+  {
+    "id": 11,
+    "name": "11",
+    "photo": "",
+    "phone": "+7 921 92-90-21",
+    "address": "Мск",
+    "email": "aaa@mail.ru"
+  },
+  {
+    "id": 12,
+    "name": "12",
+    "photo": "",
+    "phone": "+7 921 92-90-21",
+    "address": "Мск",
+    "email": "aaa@mail.ru"
+  },
+  {
+    "id": 13,
+    "name": "13",
+    "photo": "",
+    "phone": "+7 921 92-90-21",
+    "address": "Мск",
+    "email": "aaa@mail.ru"
+  },
+  {
+    "id": 14,
+    "name": "14",
+    "photo": "",
+    "phone": "+7 921 92-90-21",
+    "address": "Мск",
+    "email": "aaa@mail.ru"
+  },
+  {
+    "id": 15,
+    "name": "15",
+    "photo": "",
+    "phone": "+7 921 92-90-21",
+    "address": "Мск",
+    "email": "aaa@mail.ru"
+  },
+  {
+    "id": 16,
+    "name": "16",
+    "photo": "",
+    "phone": "+7 921 92-90-21",
+    "address": "Мск",
+    "email": "aaa@mail.ru"
+  },
+  {
+    "id": 17,
+    "name": "17",
+    "photo": "",
+    "phone": "+7 921 92-90-21",
+    "address": "Мск",
+    "email": "aaa@mail.ru"
+  },
+  {
+    "id": 18,
+    "name": "18",
+    "photo": "",
+    "phone": "+7 921 92-90-21",
+    "address": "Мск",
+    "email": "aaa@mail.ru"
+  },
+  {
+    "id": 19,
+    "name": "19",
+    "photo": "",
+    "phone": "+7 921 92-90-21",
+    "address": "Мск",
+    "email": "aaa@mail.ru"
+  },
+  {
+    "id": 20,
+    "name": "20",
+    "photo": "",
+    "phone": "+7 921 92-90-21",
+    "address": "Мск",
+    "email": "aaa@mail.ru"
+  }
+]

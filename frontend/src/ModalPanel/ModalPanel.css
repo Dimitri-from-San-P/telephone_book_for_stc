@@ -1,0 +1,162 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal{
+  width: 576px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  transform: rotate(45deg);
+}
+
+/* Blocks */
+.block{
+  width: 288px;
+  height: 288px;
+  position: relative;
+  z-index: 9;
+  overflow: hidden;
+  transition: 1s;
+}
+.block-top{
+  border-radius: 100% 0 0 0;
+}
+.block-left{
+  border-radius: 0 100% 0 0;
+}
+.bblock-right{
+  border-radius: 0 0 0 100%;
+}
+.block-bottom{
+  border-radius: 0 0 100% 0;
+}
+
+/* Segments */
+.segment{
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  border: 15rem solid transparent;
+  position: absolute;
+  transition: 1s;
+  position: relative;
+  z-index: 1;
+}
+.segment-top{
+  border-top-color: #ebebeb;
+  transform: rotate(-45deg);
+}
+.segment-left{
+  border-top-color: #ebebeb;
+  transform: rotate(45deg);
+  right: 288px;
+}
+.segment-right{
+  border-top-color: #ebebeb;
+  transform: rotate(-135deg);
+  bottom: 288px;
+}
+.segment-bottom{
+  border-top-color: #ebebeb;
+  transform: rotate(-225deg);
+  right: 288px;
+  bottom: 288px;
+}
+
+/* Icons */
+.icon{
+  position: absolute;
+  z-index: 99;
+  cursor: pointer;
+  transform: rotate(-45deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  width: 100px;
+  text-align: center;
+  transition: 1s;
+}
+.icon p{
+  margin: 0;
+}
+.icon-top{
+  top: 47%;
+  left: 42%;
+  color: #273B69;
+}
+.icon-left{
+  top: 40%;
+  left: 25%;
+  color: #273B69;
+}
+.icon-right{
+  top: 25%;
+  left: 40%;
+  color: #273B69;
+}
+.icon-bottom{
+  top: 27%;
+  left: 26%;
+  color: #273B69;
+}
+svg{
+  width: 50px;
+  height: 50px;
+}
+.filled{
+  fill: #273B69;
+  transition: 1s;
+}
+
+/* Hover */
+
+/* Top */
+.block-top:hover .segment-top{
+  border-top-color: #273B69;
+} 
+.block-top:hover .filled-top{
+  fill: #ebebeb;
+}
+.block-top:hover .icon-top{
+  color: #ebebeb;
+}
+/* Left */
+.block-left:hover .segment-left{
+  border-top-color: #273B69;
+} 
+.block-left:hover .filled-left{
+  fill: #ebebeb;
+}
+.block-left:hover .icon-left{
+  color: #ebebeb;
+}
+/* Right */
+.block-right:hover .segment-right{
+  border-top-color: #273B69;
+} 
+.block-right:hover .filled-right{
+  fill: #ebebeb;
+}
+.block-right:hover .icon-right{
+  color: #ebebeb;
+}
+/* Bottom */
+.block-bottom:hover .segment-bottom{
+  border-top-color: #273B69;
+} 
+.block-bottom:hover .filled-bottom{
+  fill: #ebebeb;
+}
+.block-bottom:hover .icon-bottom{
+  color: #ebebeb;
+}

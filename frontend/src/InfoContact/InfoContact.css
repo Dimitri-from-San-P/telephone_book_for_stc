@@ -1,0 +1,28 @@
+.infoContact-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoContact-window {
+  width: 436px;
+  height: 436px;
+  border-radius: 14px;
+  background-color: #fefefe;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infoContact-window > h3 {
+  color: #273B69;
+}
